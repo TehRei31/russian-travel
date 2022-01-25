@@ -1,0 +1,19 @@
+.header {
+    display: flex; 
+    background-color: #2A2C2F;  
+    justify-content: space-between;  
+    padding: 16px 16px 0;
+    box-sizing: content-box;
+}
+
+@media (min-width: 768px) {
+    .header {
+        padding: 28px 24px 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header {
+        padding: 28px 48px 0;
+    }
+}

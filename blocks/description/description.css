@@ -1,0 +1,17 @@
+.description {
+    margin: 64px 16px 0;
+    max-width: 928px;
+}
+
+@media (min-width: 768px) {
+    .description {
+        margin: 88px 24px 0;
+    }
+}
+
+@media (min-width: 1280px) {
+    .description {
+        margin: 92px 24px 0;
+        max-width: 984px;
+    }
+}

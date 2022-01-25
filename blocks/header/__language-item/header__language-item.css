@@ -1,0 +1,17 @@
+.header__language-item {
+   margin-right: 18px;
+   font-family: 'Inter';
+   font-weight: 400;
+   
+}
+
+.header__language-item:last-child {
+    margin-right: 0px;
+}
+
+@media (min-width: 768px) {
+    .header__language-item {
+        font-size: 24px;
+        line-height: 28px;
+    }
+}

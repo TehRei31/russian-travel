@@ -1,0 +1,16 @@
+@import url('../vendor/normalize.css');
+@import url('../fonts/Inter/Inter-3.19/Inter\ Web/inter.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__language/header__language.css');
+@import url('../blocks/logo/logo.css');
+@import url('../blocks/header/__language-item/header__language-item.css');
+@import url('../blocks/header/__language-item/__language-item_selected/header__language-item_selected.css');
+@import url('../blocks/main/main.css');
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/lead/__title/lead__title.css');
+@import url('../blocks/lead/__subtitle/lead__subtitle.css');
+@import url('../blocks/lead/__figure/lead__figure.css');
+@import url('../blocks/lead/__image/lead__image.css');
+@import url('../blocks/lead/__caption/lead__caption.css');
+@import url('../blocks/description/description.css');
+@import url('../blocks/description/__title/description__title.css');
