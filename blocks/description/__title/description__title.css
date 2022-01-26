@@ -9,14 +9,8 @@
 }
 
 @media (min-width: 768px) {
-    .lead__figure {
-        margin-top: 56px;
+    .description__title {
+        font-size: 54px;
+        line-height: 58px;
     }
 }
-
-@media (min-width: 1280px) {
-    .lead__figure {
-        margin-top: 64px;
-    }
-}
-

@@ -1,0 +1,30 @@
+.photo {
+    padding: 0 16px;
+    margin: 64px auto 0;
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
+    max-width: 1184px;
+}
+
+@media (min-width: 768px) {
+    .photo {
+        margin-top: 88px;
+        padding: 0 24px;
+        grid-gap: 16px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .photo {
+        margin-top: 92px;
+        padding: 0 48px;
+        grid-gap: 14px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .photo {
+        grid-gap: 16px;
+    }
+}
