@@ -1,12 +1,16 @@
 .lead__figure {
-    width: 100%;
-    max-width: 928px;
     margin: 40px auto 0;
 }
 
 @media (min-width: 768px) {
     .lead__figure {
         margin-top: 56px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .lead__figure {
+        padding: 0 48px;
     }
 }
 
