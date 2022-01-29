@@ -1,3 +1,21 @@
 .cover__link {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cover__link::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #2A2C2F;
+    opacity: 0.3;
+}
+
+.cover__link:hover::after {
+    opacity: 0.8;
 }
