@@ -1,6 +1,7 @@
 @import url('../vendor/normalize.css');
 @import url('../fonts/Inter/Inter-3.19/Inter\ Web/inter.css');
 @import url('../blocks/header/header.css');
+@import url('../blocks/header/__container/header__container.css');
 @import url('../blocks/header/__language/header__language.css');
 @import url('../blocks/logo/logo.css');
 @import url('../blocks/header/__language-item/header__language-item.css');
