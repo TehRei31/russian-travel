@@ -1,5 +1,4 @@
 .cover__content {
     height: min-content;
-    position: absolute;
-    z-index: 2;
+    position: relative;
 }
