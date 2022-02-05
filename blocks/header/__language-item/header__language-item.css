@@ -1,12 +1,13 @@
 .header__language-item {
-   margin-right: 18px;
    font-family: 'Inter';
    font-weight: 400;
-   
+   cursor: pointer;
+   text-decoration: none;
+   color: #FFFFFF;
 }
 
-.header__language-item:last-child {
-    margin-right: 0px;
+.header__language-item:hover {
+    opacity: 0.8;
 }
 
 @media (min-width: 768px) {

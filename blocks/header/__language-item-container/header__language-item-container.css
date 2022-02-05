@@ -1,0 +1,7 @@
+.header__language-item-container {
+    margin-right: 18px;
+}
+
+.header__language-item-container:last-child {
+    margin-right: 0;
+}
