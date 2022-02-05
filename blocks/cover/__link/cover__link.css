@@ -1,6 +1,4 @@
 .cover__link {
-    width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,6 +7,11 @@
     background-size: contain;
     background-repeat: no-repeat;
     text-decoration: none;
+}
+
+.cover__link::after {
+    content: '';
+    padding-bottom: calc(740 / 1184 * 100%);
 }
 
 .cover__link::before {

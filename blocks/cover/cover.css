@@ -3,7 +3,6 @@
     position: relative;
     max-width: 1184px;
     max-height: 740px;
-    aspect-ratio: 1184 / 740;
 }
 
 @media (min-width: 768px) {
